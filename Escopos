@@ -1,0 +1,92 @@
+--Adicionando imagem ao fundo--
+<style>
+        input{
+            color:brown;
+            border-radius: 15px;
+            border-color:black;
+        }
+        body{
+            background-color: bisque;
+            background-image: url(img/2.jfif);
+        }
+        img{
+            width: 500px;
+            height: 500px;
+        }
+    </style>
+
+
+--Linakgem de tela--
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página 2</title>
+</head>
+<body bgcolor="blue">
+    <h1>Pagina 2</h1>
+    <a href="index.html"> Index </a>
+</body>
+</html>
+
+
+--Tela com linkagem, imagem, vídeo e texto "lorem"--
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Primeira página Web</title>
+    </head>
+
+    <body>
+    <div>
+
+      <div>
+        <!--Div de menu-->
+        <font size="15">
+        <a href="home.html"> Home </a> |
+        <a href="https://www.google.com.br/?hl=pt-BR"> Google </a>
+        </font>
+      </div>
+
+    <body bgcolor="white">
+        <div>
+        <marquee scrolldelay="30" direction="hight" widht="60%">
+        <CENTER>
+        <font color="black">
+            <h1> MP3 ONLINE </h1>
+        </font>
+        </CENTER>
+        </marquee>
+    
+        <div>
+            <font size="10"color="#990000"face="">
+                <h6>Playlist 1</h6>
+            </font>
+            <div>
+                <center>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/0JMJgAlQDd4?si=p4lBVctuqDXQ_MFa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+
+                </iframe>
+                </center>
+            </div>
+        </div>
+
+        <div>
+            <center>
+            <img src="img/div2.0.jfif" width="300" height="300">
+            </img>
+            </center>
+
+            <font size="10"color="#990000"face="">
+                <h6>Playlist 2</h6>
+            </font>
+        </div>
+    </div>
+   <div>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae perspiciatis iusto quaerat amet illum at sunt! Itaque aliquam inventore quod qui eius debitis amet dolorem aut. Nisi at nemo odio?
+    </p>
+    </div>
+   </body>
+</html>
