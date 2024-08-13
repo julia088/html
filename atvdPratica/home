@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Prática</title>
+    </head>
+    
+    <body>
+        <div>
+            <div>
+                <!--Div de menu---->
+                <center>
+                <font size="15">
+                    <a href="home.html">Home</a> |
+                    <a href="servicos.html">Servicos</a> |
+                    <a href="sobre.html">Sobre</a> |
+                    <a href="contato.html">Contato</a> |
+                    <a href="mapa.html">Mapa</a> |
+                </font>
+                </center>
+            </div>
+
+        <body bgcolor="white">
+            <div>
+                <marquee scrolldelay="30" direction="hight" widht="60%">
+                    <center>
+                        <font color="green">
+                            <h1> CANTINHO VERDE </h1>
+                        </font>
+                    </center>
+                </marquee>
+            </div>
+        </body>
+
+        <div>
+            <center>
+                <img src="img/floric.jpg" width="500" height="500">
+                </img>
+            </center>
+        </div>
+
+        </div>
+    </body>
+</html>
