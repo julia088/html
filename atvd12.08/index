@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Contato</title>
+</head>
+<body>
+    <div id="boxmenu">
+    </div>
+    
+        <div>
+            <form method="post" action="#">
+                <input type="text" name="nomeCliente" id="nmCli">
+                <br>
+                <input type="text" name="emailCliente" id="emCli">
+                <br>
+                <br>
+                <!--input type="submit" value="Enviar Dados">-->
+                <button onclick="zezo();">enviar dados</button>
+            </form>
+        </div>
+        <script>
+            function zezo(){
+            var nome = document.getElementById("nmCli").value;
+            alert(nome);
+
+            if(nome !== ""){
+                document.write(nome);
+                alert(nome);
+            }else{
+                alert("Conteúdo inválido");
+            }
+            
+            innerhtml
+            }
+        </script>
+</body>
+</html>
