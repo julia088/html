@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre</title>
+</head>
+<body bgcolor="white">
+    <center>
+    <h1>Sobre</h1>
+    <a href="home.html"> Home </a>
+    </center>
+
+    <div>
+        <center>
+            <img src="img/tela3.jfif" width="500" height="500">
+            </img>
+        </center>
+    </div>
+
+    <div>
+        <p>
+            <center>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae blanditiis itaque deserunt nobis nostrum asperiores reiciendis sint amet repudiandae laudantium aliquam quisquam praesentium temporibus quam, velit error consectetur doloremque sunt.
+            </center>
+        </p>
+    </div>
+
+</body>
+</html>
