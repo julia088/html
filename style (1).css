@@ -1,0 +1,200 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(16,34,121);
+    background: linear-gradient(90deg, rgba(16,34,121,1) 20%, rgba(17,49,103,1) 49%, rgba(16,34,121,1) 80%);
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.navigation a{
+    position: relative;
+    font-size: 1.1em;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+}
+
+.navigation a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: white;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transition: transform .5s;
+}
+
+.navigation a:hover::after {
+    transform: scaleX(1);
+}
+
+
+
+.interface{
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+h2.titulo{
+    color:white;
+    font-size: 38px;
+    text-align: center;
+}
+
+button:hover, form .btn-enviar input{
+    box-shadow: 0px 0px 0px rgb(255, 255, 255);
+    transform: scale(1.05);
+}
+
+header{
+    padding: 40px 4%;
+
+}
+
+#header{
+    background-color: black;
+    opacity: 50.0;
+
+}
+
+header .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    color:#ffffff;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header nav a:hover{
+    color:#ffffff;
+    transform: scale(1.05);
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+h2.titulo span{
+    color:#ffffff;
+}
+
+
+
+section.catalogo{
+    padding:40px 4%;
+}
+
+
+section.catalogo .flex{
+    gap:60px;
+}
+
+.catalogo .catalogo-box{
+    color: white; 
+    padding: 40px;
+    border-radius: 20px;
+    border: 2px solid #ffffff;
+    margin: 15px;
+    transition: .2s;
+    text-decoration: underline;
+    text-decoration-color: #ffffff;
+}
+
+.catalogo .catalogo-box:hover{
+    transform: scale(1.06);
+}
+
+.catalogo .catalogo-box i{
+    font-size: 70px;
+    color: #ffffff;
+}
+
+.catalogo .catalogo-box h3{
+    font-size: 28px;
+    margin: 15px 0;
+}
+
+.catalogo .btnLogin-popup {
+    width: 130px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid white;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: white;
+    font-weight: 500;
+    margin-left: 40px;
+    transition: .5s;
+}
+
+section.formulario{
+    padding: 80px 4%;
+}
+
+form{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+form input, form textarea{
+    width: 100%;
+    background-color:#00218d;
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 15px;
+    color:white;
+    font-size: 18px;
+}
+
+form textarea{
+    resize: none;
+    max-width:700px;
+    height: 200px;
+}
+
+form .btn-enviar{
+    margin-top: 20px;
+    text-align: center;
+}
+
+form .btn-enviar input{
+    width: 120px;
+    background-color: white;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .2s;
+}
